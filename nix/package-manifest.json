@@ -1,0 +1,22 @@
+{
+  "stubbed": false,
+  "source": {
+    "path": "upstream",
+    "version": "0.2.2",
+    "rev": "5669b72a7d72ce36e23906a1a1178b6ae4bca28c"
+  },
+  "package": {
+    "version": "0.2.2"
+  },
+  "binary": {
+    "name": "toon",
+    "aliases": [
+      "tru"
+    ]
+  },
+  "meta": {
+    "description": "TOON reference implementation in Rust (JSON <-> TOON)",
+    "homepage": "https://github.com/Dicklesworthstone/toon_rust",
+    "licenseSpdx": "MIT"
+  }
+}
