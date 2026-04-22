@@ -7,10 +7,12 @@
     "channel": "github-head",
     "defaultBranch": "main",
     "version": "0.2.2",
-    "rev": "5669b72a7d72ce36e23906a1a1178b6ae4bca28c",
-    "hash": "sha256-rMMW56yyKhpFU/5nWm25J+CDQJtYW3b0kfvau0sQ3m4="
+    "rev": "4d2c00e897e6b0e5c21f910a3a25125ddfc6b4ae",
+    "hash": "sha256-pW3/clvSw7IAMFFlq4uf7b8qH6Yinu++a3wwP3zuQGs="
   },
-  "package": {},
+  "package": {
+    "version": "0.2.2"
+  },
   "binary": {
     "name": "toon",
     "aliases": [
