@@ -1,13 +1,16 @@
 {
   "stubbed": false,
   "source": {
-    "path": "upstream",
+    "type": "github",
+    "owner": "Dicklesworthstone",
+    "repo": "toon_rust",
+    "channel": "github-head",
+    "defaultBranch": "main",
     "version": "0.2.2",
-    "rev": "5669b72a7d72ce36e23906a1a1178b6ae4bca28c"
+    "rev": "5669b72a7d72ce36e23906a1a1178b6ae4bca28c",
+    "hash": "sha256-rMMW56yyKhpFU/5nWm25J+CDQJtYW3b0kfvau0sQ3m4="
   },
-  "package": {
-    "version": "0.2.2"
-  },
+  "package": {},
   "binary": {
     "name": "toon",
     "aliases": [
