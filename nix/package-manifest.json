@@ -6,12 +6,12 @@
     "repo": "toon_rust",
     "channel": "github-head",
     "defaultBranch": "main",
-    "version": "0.2.4",
-    "rev": "f740e7b606f4a2795637e0a0c0df509d49951e6c",
-    "hash": "sha256-cwkv89BjDlhzyMPDZ0x0H3udlNb06kmgiS3ktoZyiMQ="
+    "version": "0.2.5",
+    "rev": "f4415311f72c59c79bdc89309b09b5668e06c268",
+    "hash": "sha256-qZRcBDE+oZrBKi0VS8dBsBW/0SbLdmXCbFpyeaG63Io="
   },
   "package": {
-    "version": "0.2.4"
+    "version": "0.2.5"
   },
   "binary": {
     "name": "toon",
