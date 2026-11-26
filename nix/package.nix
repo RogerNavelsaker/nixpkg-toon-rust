@@ -9,7 +9,8 @@ let
     hash = manifest.source.hash;
   };
   sourceRoot = runCommand "${manifest.binary.name}-${manifest.source.version}-src" {} ''
-    mkdir -p "$out/src" "$out/benches"
+    mkdir -p "$out/src" "$out/benches" "$out/tests"
+    cp -R ${upstreamSrc}/tests/. "$out/tests/"
     cp ${upstreamSrc}/Cargo.toml "$out/Cargo.toml"
     cp ${upstreamSrc}/Cargo.lock "$out/Cargo.lock"
     if [ -f ${upstreamSrc}/build.rs ]; then
